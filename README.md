@@ -13,13 +13,13 @@ I build a blog template with tailwind css.
 4. build
 
 ## tailwind
-Run your project with tailwindcss. you does not need any postcss configation
+`npm run tailwind` coomand start your project server with tailwindcss. you does not need any postcss configation.
 
 ## dev
-npm dev command work with postcss in tailwind css.
+`npm run dev` command work with postcss in tailwind css.
 
 ## start
-run your local server with live-server.
+`npm run start ` your local server with live-server.
 
 ## build
-build your tailwind css file help of postcss with live-server.
+` npm run build ` command build your tailwind css file help of postcss and  with live-server.
