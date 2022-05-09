@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "Demo blog with tailwind css",
+  "description": "Demo blog with tailwind css and html",
   "main": "index.js",
   "scripts": {
     "tailwind": "tailwindcss  -i ./css/tailwind.css -o /build/tailwind.css --minify  & live-server  ",
