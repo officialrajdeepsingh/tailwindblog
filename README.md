@@ -1,4 +1,4 @@
-I build a blog template with tailwind css.
+I build a blog template with tailwind css. you can run the project only locally. if you try my code online browser IDE. maybe you face a error and you change some code according to IDE.
 
 ## step
 1. Download code
