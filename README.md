@@ -22,4 +22,4 @@ I build a blog template with tailwind css.
 `npm run start ` your local server with live-server.
 
 ## build
-` npm run build ` command build your tailwind css file help of postcss and  with live-server.
+` npm run build ` command build your tailwind css file help of postcss and  without live-server.
