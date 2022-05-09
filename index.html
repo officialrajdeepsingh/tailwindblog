@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Start Head -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <!--  tailweind production link -->
+  <link rel="stylesheet" href="/build/tailwind.css" />
+  <title>Blog Teen </title>
+</head>
+<!-- End Head -->
+<!-- Start Body  -->
+
+<body class="bg-white relative ">
+
+  <!-- ---------- -->
+  <!-- Start header -->
+  <header class="p-2 flex justify-around justify-items-center items-center">
+    <button id="navbar-icon" class='outline-none focus:outline-none'>
+      <?xml version="1.0"?>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+      </svg>
+    </button>
+    <a class="p-2" href="/">
+      Blog
+    </a>
+    <div class="flex items-center justify-between  justify-items-center  w-24 md:w-32 xl:w-32 2xl:w-32">
+      <a href="#" class="w-5 h-5">
+        <?xml version="1.0"?><svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </a>
+      <a href="#" class="w-5 h-5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+          class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+          </path>
+        </svg>
+      </a>
+      <a href="#" class="w-5 h-5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+          class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+          </path>
+        </svg>
+      </a>
+      <a href="#" class="w-5 h-5">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+          class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+          </path>
+        </svg>
+      </a>
+
+    </div>
+
+  </header>
+
+  <nav id="navOpen" class='gradientNav bg-gray-500 hidden w-full h-full absolute z-50 top-0 left-0 p-20 '>
+
+    <svg style="color:white" id="closeIcon" class="absolute h-8 mr-20 mt-0 right-0 top-1 w-8 cursor-pointer"
+      aria-hidden="true" focusable="false" data-prefix="fal" data-icon="times" role="img"
+      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" class="svg-inline--fa fa-times fa-w-10 fa-3x">
+      <path fill="currentColor"
+        d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z">
+      </path>
+    </svg>
+
+    <ul class="flex flex-col m-5">
+
+      <li class="text-3xl p-1 my-1 text-white text-center">
+        <a href="#">Home </a>
+      </li>
+      <li class="text-3xl p-1 my-1 text-white text-center "><a href="#">Help</a></li>
+      <li class="text-3xl p-1 my-1 text-white text-center "><a href="/pages/About.html">About</a></li>
+      <li class="text-3xl p-1 my-1 text-white text-center "><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- End header -->
+
+  <!-- ---------- -->
+
+  <!-- Start main -->
+  <main>
+
+    <!-- Start Cover -->
+    <section class='container m-auto flex flex-col h-screen justify-center items-center w-9/12'>
+      <!-- Cover Section -->
+      <div class="w-9/12">
+        <h1 class="text-sm sm:text-2xl md:text-2xl xl:text-2xl 2xl:text-2xl">Blog</h1>
+        <h2 class="mt-2 sm:text-2xl md:text-2xl xl:text-4xl 2xl:text-4xl">Read All Articles Realted to Computer Science
+        </h2>
+      </div>
+    </section>
+    <!-- End Cover  -->
+
+    <!-- ------ -->
+
+    <!-- Start article -->
+    <article class="sm:mx-0  gap-12 xl:mx-56 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
+      <!-- Start card 1 -->
+
+      <div class=" card  mt-32 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 1 -->
+        <a href="#">
+          <img class='' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href="#">
+            <p class="sm:text-sm xl:text-lg	mx-2">#Javascript</p>
+          </a>
+          <a href="#">
+            <p class="sm:text-sm xl:text-lg	mx-2">#Python</p>
+
+          </a>
+        </div>
+        <a class="hover:text-red-800" href="#">
+          <h1 class="mt-2 text-black sm:text-2xl xl:text-2xl hover:text-red-800">Why javascript is so famous right now?
+            5</h1>
+        </a>
+      </div>
+      <div class=" card my-auto lg:mt-0 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 2 -->
+        <a href='#'>
+          <img class='w-50 h-8/12 ' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href='#'>
+            <h6 class="sm:text-sm xl:text-lg	mx-2 hover:text-grey">#Javascript</h6>
+          </a>
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Python</h6>
+          </a>
+        </div>
+        <a href='#'>
+
+          <h1 class="mt-2 sm:text-2xl xl:text-2xl">Why javascript is so famous right now?</h1>
+        </a>
+      </div>
+      <div class=" card   lg:mt-0 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 3 -->
+        <a href='#'>
+
+          <img class='w-50 h-8/12 ' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Javascript</h6>
+          </a>
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Python</h6>
+          </a>
+        </div>
+        <a href='#'>
+
+          <h1 class="mt-2 sm:text-2xl xl:text-2xl">Why javascript is so famous right now?</h1>
+        </a>
+      </div>
+      <div class=" card    lg:mt-0 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 4 -->
+        <a href='#'>
+
+          <img class='w-50 h-8/12 ' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Javascript</h6>
+          </a>
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Python</h6>
+          </a>
+        </div>
+        <a href='#'>
+
+          <h1 class="mt-2 sm:text-2xl xl:text-2xl">Why javascript is so famous right now?</h1>
+        </a>
+      </div>
+      <div class=" card   lg:mt-0 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 5 -->
+        <a href='#'>
+
+          <img class='w-50 h-8/12 ' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href='#'>
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Javascript</h6>
+          </a>
+          <a href='#'>
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Python</h6>
+          </a>
+        </div>
+        <a href='#'>
+
+          <h1 class="mt-2 sm:text-2xl xl:text-2xl">Why javascript is so famous right now?</h1>
+        </a>
+      </div>
+      <div class=" card    lg:mt-0 w-8/12 xl:w-11/12 mx-auto">
+        <!-- Crad 6 -->
+        <a href='#'>
+
+          <img class='w-50 h-8/12 ' src="./images/photo.png" alt="My blog post" />
+        </a>
+        <div class="flex mt-2">
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Javascript</h6>
+          </a>
+          <a href='#'>
+
+            <h6 class="sm:text-sm xl:text-lg	mx-2">#Python</h6>
+          </a>
+        </div>
+        <a href='#'>
+
+          <h1 class="mt-2 sm:text-2xl xl:text-2xl">Why javascript is so famous right now?</h1>
+        </a>
+      </div>
+
+
+    </article>
+    <!-- End article -->
+    <!-- ------ -->
+    <!-- Start pagnation -->
+    <div style=" background-color: rebeccapurple; " class="m-auto my-24 w-40 p-3 rounded-md shadow-lg">
+      <a href="#" target="_blank">
+        <h2 class="text-center text-white"> More Article </h2>
+      </a>
+    </div>
+    <!-- End pagnation -->
+
+  </main>
+  <!-- End main -->
+  <!-- ----- -->
+  <!-- start footer -->
+  <footer class="flex flex-col mt-32">
+    <!-- start footer nav 1 -->
+    <div
+      class="grid grid-cols-1 xl:grid-cols-3 p-10 py-7 xl:p-14 2xl:p-14 md:p-14 justify-left sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3  md:grid-cols-2">
+      <section class="mt-10">
+        <ul class="flex flex-col justify-around mb-2 mx-32 w-1/3">
+          <li class="mx-1 my-1"><a href="#" target="_blank">About us</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Careers</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Our team</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Company</a></li>
+        </ul>
+
+      </section>
+
+      <section class="mt-10">
+        <ul class="flex flex-col justify-around mb-2 mx-32 w-1/3">
+          <li class="mx-1 my-1"><a href="#" target="_blank">Community</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Help</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Feq</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Contact us</a></li>
+        </ul>
+      </section>
+      <section class="mt-10">
+        <ul class="flex flex-col justify-around mb-2 mx-32 w-1/3">
+          <li class="mx-1 my-1"><a href="#" target="_blank">Product</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Woman</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Men</a></li>
+          <li class="mx-1 my-1"><a href="#" target="_blank">Stores</a></li>
+        </ul>
+      </section>
+
+    </div>
+    <!-- End footer nav 1 -->
+    <!-- start footer nav 2 -->
+    <ul class="flex flex-row justify-around my-8  px-5 sm:w-4/4 md:w-2/4 xl:w-2/4">
+      <li class=" text-sm"><a href="#" target="_blank" rel="noopener noreferrer">Copyright by BlogTeen</a></li>
+      <li class=" text-sm"><a href="#" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+      <li class=" text-sm"><a href="#" target="_blank" rel="noopener noreferrer">Term</a></li>
+      <li class=" text-sm"><a href="#" target="_blank" rel="noopener noreferrer">Sitemap</a></li>
+    </ul>
+    <!-- End footer nav 2 -->
+  </footer>
+
+  <!-- End footer -->
+
+  <script>
+    let navBar = document.getElementById("navbar-icon")
+    console.log(navBar)
+    let navOpen = document.getElementById("navOpen")
+    let closeIcon = document.getElementById("closeIcon")
+    navBar.addEventListener('click', function () {
+      // navOpen.classList.remove("hidden");
+      navOpen.classList.toggle("hidden");
+    })
+    closeIcon.addEventListener('click', function () {
+      // navOpen.classList.remove("hidden");
+      navOpen.classList.toggle("hidden");
+    })
+  </script>
+</body>
+<!-- End body -->
+
+</html>
