@@ -4,10 +4,10 @@
   "description": "Demo blog with tailwind css and html",
   "main": "index.html",
   "scripts": {
-    "tailwind": "tailwindcss  -i ./css/tailwind.css -o build/tailwind.css --minify  & live-server  ",
-    "dev": " live-server  & postcss css/tailwind.css -o ./build/tailwind.css --minify --watch  ",
-    "start": "live-server ./public ",
-    "build": "postcss css/tailwind.css -o build/tailwind.css --minify"
+    "tailwind": "tailwindcss  -i ./css/main.css -o build/tailwind.css --minify  & live-server  ",
+    "dev": " live-server  & postcss css/main.css -o ./build/tailwind.css --minify --watch  ",
+    "start": "live-server ./ ",
+    "build": "postcss css/main.css -o build/tailwind.css --minify"
   },
   "author": "Rajdeep Singh",
   "license": "ISC",
